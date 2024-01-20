@@ -87,15 +87,14 @@ h1 {
 /* ... home ... */
 
 #home {
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh; /* Full height of the viewport */
+    align-items: flex-start; /* Align items to the top */
+    justify-content: flex-start; /* Align content to the top */
+    height: auto; /* Allow container to shrink to fit content */
     padding: 50px;
-    background-color: #1a202c; /* Dark gray background */
-    color: #cbd5e0; /* Light text for contrast */
+    background-color: #1a202c;
+    color: #cbd5e0;
     font-family: 'Open Sans', sans-serif;
 }
-
 .container-home {
     display: flex;
     align-items: center;
